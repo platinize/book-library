@@ -1,0 +1,58 @@
+body {font-weight:700;height: 100%;display: flex;flex-direction: column;height: 100%;}
+html {height: 100%}
+.navbar-default {background: transparent;border-color:transparent}
+.navbar-brand {height:auto}
+.logo {width: 100px}
+.container {max-width:1100px;margin: 0 auto;}
+#app {flex-grow: 1;}
+.wrapper {flex-grow: 5000;}
+header {background: #ce6654}
+.container.books {background: #eae5b8;word-wrap: break-word;}
+.top-nav {margin:0 auto; height: 50px;background: #0095d6;}
+.top-nav.container {height: 100%;background: #333;}
+.top-nav .navbar-nav>li>a, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {color:#fff;font-weight:700;width: 100%}
+.pagination>.active>span, .pagination>li>a {font-weight:600}
+.pagination>li>a:hover {background: #74afca}
+.pagination>.active>span {background: #0095d6}
+footer {background: #ce6654;min-height:100px;}
+footer div {padding:10px;height: 100%; display:flex;justify-content: center;}
+footer .navbar-nav>li>a {color:#fff;font-weight:700;width: 100%}
+footer .navbar-nav>li>a:hover {background: #74afca}
+div.search, div.addGenre {max-width: 250px;position:relative;margin: 20px 0}
+div.addGenre label {margin:0}
+div.search .btn, div.addGenre .btn  {position:absolute;bottom:0;right:0;border-radius: 0 5px 5px 0}
+.form-control {font-weight: 600;}
+.booksBlock {float: left;width:75%;}
+.genres {float:right;background: #e5caa3;padding: 10px;border-radius: 15px;margin:20px 0}
+.genres.sidebar ul {list-style:none;width:100%;padding: 0}
+.genres a {text-decoration:none}
+p.title_book a {text-decoration:none;color:#c7254e;font-weight:700;}
+p.title_book a:hover {color:#761c19;}
+.bookBlock {width:250px;height:300px;background:#c5d1d8;margin: 2px;border-radius:15px;padding: 10px}
+.allBooks {display:flex;flex-wrap: wrap;}
+.bookBlock > span {display:flex;}
+.panel-default {padding: 15px}
+.content {}
+.top-nav .nav.navbar-nav>li>ul {display:none;position: absolute;top:50px;left:0;background:#0095d6;z-index:5}
+.top-nav .nav.navbar-nav>li>ul a {color:#fff}
+.top-nav .nav.navbar-nav>li:hover ul {display:block;}
+.top-nav .nav.navbar-nav>li >ul li:hover {display:block;}
+.top-nav .nav>li>a:hover {background:#0071a2}
+.adminTable td {padding: 0 10px}
+table.books td {padding: 0 5px}
+table td a {display: block}
+table td.delete a {text-align: center}
+table td.delete {padding: 0}
+table td.delete a:hover {background:#b6dbea}
+.container a {text-decoration: none}
+.userForm form {display: flex;flex-direction: column;max-width: 100%;align-items: center;}
+.userForm form textarea.form-control {width: 300px}
+.userForm form>div, .bookForm form>div {text-align: center;margin: 3px auto}
+div:not(.head)>.container {word-wrap: break-word;align-self: center;}
+.bookForm form>div input[type='file'] {margin: 3px auto}
+.bookForm select {width: 300px;margin:5px auto}
+.dateForm {top:5px;right: 10px;display:none; width:350px; height:200px; font:13px normal 'Tahoma'; color#033151; background: #ffddb0; border:8px solid #ff571a; position:absolute;}
+.subm.no {margin-right: 5px}
+table {margin-bottom: 20px}
+.setPhoto, .option {display:none; width:350px; height:180px; font:13px normal 'Tahoma'; color#033151; background: #ffddb0; border:8px solid #ff571a; position:absolute;}
+.setPhoto {width:285px;height:130px}
